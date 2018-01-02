@@ -19,13 +19,3 @@ $ quasar build
 # lint code
 $ quasar lint
 ```
-
-
-
-
-
-
-
-npm install --global vue-cli
-npm install
-npm run dev
