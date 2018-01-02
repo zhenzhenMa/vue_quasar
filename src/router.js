@@ -25,7 +25,9 @@ export default new VueRouter({
       path: '/',
       component: load('layout'),
       children: [
-        { path: '', component: load('index') },
+        { path: '/index', component: load('index') },
+        { path: '/map', component: load('map') },
+        { path: '/about', component: load('about') },
         { path: '/add-ticket', component: load('ticket/addTicket') }
       ]
     }

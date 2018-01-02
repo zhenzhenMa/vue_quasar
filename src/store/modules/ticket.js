@@ -33,8 +33,8 @@ const actions = {
       url: `api/server.js`
     })
       .then(response => {
-        console.log(response)
-        console.log('response')
+        // console.log(response)
+        // console.log('response')
         return new Promise((resolve, reject) => {
           commit(types.ADD_TICKET, ticket)
           setTimeout(() => { resolve({success: true}) }, 5000)
