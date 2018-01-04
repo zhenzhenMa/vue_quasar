@@ -46,7 +46,7 @@ export default {
   data () {
     return {
       config: {
-        title: 'Data Table',
+        title: 'Ticket Table',
         refresh: true,
         noHeader: false,
         columnPicker: true,
