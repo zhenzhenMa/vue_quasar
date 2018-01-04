@@ -29,6 +29,8 @@
           if (file.match(/\.(js|css)$/)) { %>
         <link rel="<%= chunk.initial?'preload':'prefetch' %>" href="<%= htmlWebpackPlugin.files.publicPath + file %>" as="<%= file.match(/\.css$/)?'style':'script' %>">
         <% }}} %>
+    
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=ZihnG0CkPaXzGH4BqWhmYkFzGZwfsQuT"></script>
 </head>
 
 <body>

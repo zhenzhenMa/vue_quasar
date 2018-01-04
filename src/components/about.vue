@@ -4,7 +4,7 @@
       <!-- <q-gallery-carousel dots infinite autoplay :src="gallery" class="banner">
       </q-gallery-carousel> -->
       <!-- <img src="~assets/quasar-logo-full.svg" alt="banner"> -->
-      <map-container></map-container>
+      <map-container :m="giveData"></map-container>
       <!-- <data-table></data-table> -->
       <!-- <hello-gkk></hello-gkk> -->
       <router-view></router-view>
@@ -32,7 +32,13 @@ export default {
   },
 
   data () {
-    return { xx: 0 }
+    return {
+      giveData: {
+        height: 300,
+        longitude: 116.404,
+        latitude: 39.915
+      }
+    }
   }
 }
 </script>
