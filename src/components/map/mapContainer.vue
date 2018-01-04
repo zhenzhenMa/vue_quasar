@@ -1,11 +1,22 @@
 <template>
-  <div class="map-container">hello world!</div>
+  <div class="layout-padding">
+    <h1>
+      hello
+    </h1>
+  </div>
 </template>
 
-<script>
-  export default {
-  }
+<script type="text/javascript">
+export default {
+  data () {
+    return { bodyHeight: 500 }
+  },
+
+  computed: {},
+
+  methods: {}
+}
 </script>
 
-<style lang="stylus" rel="stylesheet/stylus">
+<style lang="stylus">
 </style>
