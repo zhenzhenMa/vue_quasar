@@ -11,7 +11,7 @@
         <q-tab slot="title" label="LOGO" class="nav-logo" @select="select"></q-tab>
         <q-tab slot="title" name="index-tab" label="首页" @click="$router.push('/index')" />
         <q-tab slot="title" name="send-tab" label="地图" @click="$router.push('/map')" />
-        <q-tab slot="title" name="send-tab2" label="hello" @click="$router.push('/hello')" />
+        <q-tab slot="title" name="send-tab2" label="图表" @click="$router.push('/chart')" />
         <q-tab slot="title" name="take-tab" label="关于" @click="$router.push('/about')" />
       </q-tabs>
     </header>

@@ -18,4 +18,7 @@ $ quasar build
 
 # lint code
 $ quasar lint
+
+# echarts
+$ npm install echarts -S
 ```
