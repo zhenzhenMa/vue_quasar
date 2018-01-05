@@ -23,13 +23,17 @@
     <meta name="msapplication-TileColor" content="#ffffff">
 
     <meta name="theme-color" content="#027be3">
+    <!-- 百度地图 -->
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=ZihnG0CkPaXzGH4BqWhmYkFzGZwfsQuT"></script>
 
+    
     <% for (var chunk of webpack.chunks) {
         for (var file of chunk.files) {
           if (file.match(/\.(js|css)$/)) { %>
         <link rel="<%= chunk.initial?'preload':'prefetch' %>" href="<%= htmlWebpackPlugin.files.publicPath + file %>" as="<%= file.match(/\.css$/)?'style':'script' %>">
         <% }}} %>
-        
+
+    
 </head>
 
 <body>

@@ -40,7 +40,7 @@ export default {
   },
 
   mounted () {
-    console.log('tickets', this.tickets)
+    // console.log('tickets', this.tickets)
   },
 
   data () {

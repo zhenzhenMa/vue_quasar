@@ -19,6 +19,11 @@ module.exports = {
   entry: {
     app: './src/main.js'
   },
+  externals: {
+    // 百度地图用到的常量
+    'BMap': 'BMap',
+    'BMAP_ANIMATION_BOUNCE': 'BMAP_ANIMATION_BOUNCE'
+  },
   output: {
     path: path.resolve(__dirname, '../dist'),
     publicPath: config[env.prod ? 'build' : 'dev'].publicPath,
