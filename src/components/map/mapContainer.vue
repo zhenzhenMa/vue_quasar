@@ -2,6 +2,7 @@
   <div id="map" :style="style"></div>
 </template>
 
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=ZihnG0CkPaXzGH4BqWhmYkFzGZwfsQuT"></script>
 <script>
   export default{
     data () {

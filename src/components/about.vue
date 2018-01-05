@@ -34,7 +34,7 @@ export default {
   data () {
     return {
       giveData: {
-        height: 300,
+        height: 700,
         longitude: 116.404,
         latitude: 39.915
       }
